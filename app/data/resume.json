@@ -1,0 +1,220 @@
+{
+  "basics": {
+    "name": "Richie Lombano",
+    "label": "Staff Site Reliability Engineer",
+    "image": "https://avatars.githubusercontent.com/u/921812?v=4",
+    "picture": "https://avatars.githubusercontent.com/u/921812?v=4",
+    "email": "richylombano@gmail.com",
+    "phone": "",
+    "website": "https://resume.iosphere.tech",
+    "summary": "Experienced Site Reliability Engineer with a focus on GitOps and a demonstrated history of building secure, reliable platforms. Passionate about enabling product teams through SRE practices and DevOps culture, with a strong belief in 'shift left' principles.",
+    "location": {
+      "postalCode": "33701",
+      "city": "St. Petersburg",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "richard-lombano",
+        "url": "https://www.linkedin.com/in/richard-lombano/"
+      },
+      {
+        "network": "GitHub",
+        "username": "RLProteus",
+        "url": "https://github.com/RLProteus"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Solar Mosaic",
+      "position": "Staff Site Reliability Engineer",
+      "url": "https://joinmosaic.com/",
+      "startDate": "2022-10",
+      "endDate": "present",
+      "summary": "As a Staff Site Reliability Engineer at Mosaic, I spearhead key initiatives to enhance our platform's stability and efficiency. I led the successful migration to EKS, cut our cloud costs by 50%, and significantly boosted service availability. I lead our CI/CD and infrastructure architecture and actively contribute to the health and security of our services. Collaborating with the application architecture committee, I help design and approve reference architectures. Currently, I'm leading the development of our internal developer platform, aiming to streamline self-service golden paths for our engineering teams.",
+      "highlights": [
+        "EKS Migration with Karpenter Autoscaling",
+        "API Gateway modernization w/ NGINX & ingress-nginx",
+        "Platform engineering - self-service portal for engineers",
+        "CI/CD for secure SDLC workflows"
+      ]
+    },
+    {
+      "name": "Panzura",
+      "position": "Senior Cloud Platform Engineer",
+      "url": "https://panzura.com/",
+      "startDate": "2021-01",
+      "endDate": "2022-10",
+      "summary": "Working to improve the DevOps culture at Panzura by integrating tooling and policies designed to help Product teams release faster while maintaining high security standards. Leveraging Infrastructure-as-Code, CI/CD pipelines, observability tooling, self-service, and an overall shift-left mentality wherever possible. Leading a team of three engineers.",
+      "highlights": []
+    },
+    {
+      "name": "Vology",
+      "position": "Cloud Engineer",
+      "url": "https://atsgcorp.com",
+      "startDate": "2016-11",
+      "endDate": "2020-04",
+      "highlights": [
+        "Designed and migrated customer IT infrastructure to public cloud",
+        "Reference architectures for Azure offerings"
+      ]
+    },
+    {
+      "name": "RobbinsKersten Direct",
+      "position": "Jr. Systems Engineer",
+      "url": "https://rkdgroup.com/",
+      "startDate": "2015-12",
+      "endDate": "2016-11",
+      "summary": "Managed post-acquisition IT setup and built secure infrastructure and workflows.",
+      "highlights": [
+        "Windows Server infrastructure design"
+      ]
+    },
+    {
+      "name": "Lincare Holdings, Inc.",
+      "position": "Systems Support",
+      "url": "https://www.lincare.com/en/",
+      "startDate": "2014-04",
+      "endDate": "2015-12",
+      "summary": "Managed deployment and support for thousands of workstations and servers, ensuring HIPAA compliance.",
+      "highlights": []
+    },
+    {
+      "name": "Elite Networks",
+      "position": "Subcontractor (Part Time)",
+      "url": "",
+      "startDate": "2011-01",
+      "endDate": "2014-04",
+      "summary": "Provided IT support and maintained infrastructure and uptime for hosted services.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pasco-Hernando Community College",
+      "area": "AA",
+      "studyType": "Associate of Arts",
+      "startDate": "2010-08",
+      "endDate": "2013-12"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Florida Bright Futures Scholarship",
+      "awarder": "Florida Department of Education"
+    },
+    {
+      "title": "All Florida Community College Academic Team Scholarship",
+      "awarder": "Phi Theta Kappa Honor Society"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Professional Cloud Architect",
+      "issuer": "Google Cloud"
+
+    },
+    {
+      "name": "A+",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "Project+",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "ACE",
+      "issuer": "Palo Alto Networks"
+    }
+  ],
+  "skills": [
+    {
+      "name": "GitOps & Infrastructure",
+      "level": "Master",
+      "keywords": [
+        "Kubernetes",
+        "Terraform",
+        "ArgoCD"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Master",
+      "keywords": [
+        "Secure pipelines",
+        "GitHub Actions",
+        "GitLab CI"
+      ]
+    },
+    {
+      "name": "Observability",
+      "level": "Master",
+      "keywords": [
+        "Datadog",
+        "Opentelemetry",
+        "Tracing & APM"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "SDLC workflows",
+        "Build & Release"
+      ]
+    },
+    {
+      "name": "Leadership & Agile",
+      "level": "Master",
+      "keywords": [
+        "Mentoring",
+        "leading SRE teams",
+        "Agile methodologies"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rock Climbing",
+      "keywords": [
+        "Top rope",
+        "Lead"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Agent Based AI Chatbot",
+      "startDate": "2019-01-01",
+      "endDate": "present",
+      "description": "An agentic AI chatbot designed to work with an IRC channel.",
+      "url": "https://github.com/RLProteus/CloudBot/blob/main/plugins/ai_assistant.py"
+    },
+    {
+      "name": "Resume Pipeline",
+      "startDate": "2025-06-09",
+      "endDate": "present",
+      "description": "A simple pipeline to generate my resume in various formats using the popular project, JSON Resume. This allows me to keep my resume up to date with minimal effort and ensure it's consistant across all platforms.",
+      "url": "https://github.com/RLProteus/Resume"
+    }
+  ]
+}
