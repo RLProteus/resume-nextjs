@@ -4,7 +4,7 @@ import {Basics, Summary, Skills, Experience, Education, Projects} from "@/compon
 
 export function Resume() {
   return (
-    <div className="max-w-4xl mx-auto space-y-8 print:space-y-6">
+    <div className="max-w-5xl min-w-xl mx-auto space-y-8 print:space-y-6">
       {/* Header */}
       <Basics />
 

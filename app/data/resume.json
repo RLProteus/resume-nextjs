@@ -132,129 +132,108 @@
   "skills": [
     {
       "name": "GitOps & Infrastructure",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         {
           "name": "Kubernetes",
-          "proficiency": "Expert",
           "value": 95
         },
-                {
+        {
           "name": "Terraform",
-          "proficiency": "Expert",
           "value": 100
         },
-                {
+        {
           "name": "ArgoCD",
-          "proficiency": "Expert",
           "value": 100
         }
       ]
     },
     {
       "name": "Cloud Platforms",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-
-                {
+        {
           "name": "AWS",
-          "proficiency": "Expert",
           "value": 100
         },
-                {
+        {
           "name": "GCP",
-          "proficiency": "Expert",
           "value": 90
         },
-                {
+        {
           "name": "Azure",
-          "proficiency": "Expert",
           "value": 60
         }
       ]
     },
     {
       "name": "CI/CD",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-        
-                {
+        {
           "name": "Secure pipelines",
-          "proficiency": "Expert",
           "value": 100
         },
-                {
+        {
           "name": "GitHub Actions",
-          "proficiency": "Expert",
           "value": 100
         },
-                {
+        {
           "name": "GitLab CI",
-          "proficiency": "Expert",
           "value": 85
         }
       ]
     },
     {
       "name": "Observability",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-                        {
+        {
           "name": "Datadog",
-          "proficiency": "Expert",
           "value": 100
         },
-                {
+        {
           "name": "Opentelemetry",
-          "proficiency": "Expert",
           "value": 70
         },
-                {
+        {
           "name": "Tracing & APM",
-          "proficiency": "Expert",
           "value": 100
         }
       ]
     },
     {
       "name": "Software Engineering",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-
-                        {
+        {
           "name": "Python",
-          "proficiency": "Expert",
           "value": 80
         },
-                {
-          "name": "SDLC workflows",
-          "proficiency": "Expert",
-          "value": 80
-        },
-                {
-          "name": "Build & Release",
-          "proficiency": "Expert",
+        {
+          "name": "Secure SDLC",
           "value": 90
+        },
+                {
+          "name": "React & Next.js",
+          "value": 30
         }
       ]
     },
     {
       "name": "Leadership & Agile",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-                        {
+        {
           "name": "Mentoring",
-          "proficiency": "Expert",
           "value": 70
         },
-                {
+        {
           "name": "leading SRE teams",
-          "proficiency": "Expert",
           "value": 60
         },
-                {
+        {
           "name": "Agile methodologies",
-          "proficiency": "Expert",
           "value": 70
         }
       ]

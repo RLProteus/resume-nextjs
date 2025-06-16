@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 import { promises as fs } from 'fs';
-import Link from '@mui/joy/Link';
+import Link from 'next/link';
+import { IconBrandGithub } from "@tabler/icons-react"
 
 
 type Projects = {
@@ -26,12 +28,15 @@ export async function Projects() {
         {resume.projects.map((project: Projects, index: number) => (
           <div key={index} className="space-y-2 ">
             <h3 className="font-semibold">{project.name}</h3>
-
-            <div className="flex justify-between items-start">
-              <div className="text-sm text-muted-foreground ">{project.description}</div>
-              <div className="text-sm text-right text-muted-foreground min-w-max"><Link href={project.url}>More Info</Link></div>
+            <div className="flex justify-between gap-10 text-sm text-muted-foreground">
+              <div>{project.description}</div>
+              <div>
+                <Button variant={"outline"}>
+                  <IconBrandGithub />
+                  <Link href={project.url}>More Info</Link>
+                </Button>
+              </div>
             </div>
-
           </div>
         ))}
       </CardContent>
