@@ -115,7 +115,6 @@
     {
       "name": "Professional Cloud Architect",
       "issuer": "Google Cloud"
-
     },
     {
       "name": "A+",
@@ -135,54 +134,129 @@
       "name": "GitOps & Infrastructure",
       "level": "Master",
       "keywords": [
-        "Kubernetes",
-        "Terraform",
-        "ArgoCD"
+        {
+          "name": "Kubernetes",
+          "proficiency": "Expert",
+          "value": 95
+        },
+                {
+          "name": "Terraform",
+          "proficiency": "Expert",
+          "value": 100
+        },
+                {
+          "name": "ArgoCD",
+          "proficiency": "Expert",
+          "value": 100
+        }
       ]
     },
     {
       "name": "Cloud Platforms",
       "level": "Master",
       "keywords": [
-        "AWS",
-        "GCP",
-        "Azure"
+
+                {
+          "name": "AWS",
+          "proficiency": "Expert",
+          "value": 100
+        },
+                {
+          "name": "GCP",
+          "proficiency": "Expert",
+          "value": 90
+        },
+                {
+          "name": "Azure",
+          "proficiency": "Expert",
+          "value": 60
+        }
       ]
     },
     {
       "name": "CI/CD",
       "level": "Master",
       "keywords": [
-        "Secure pipelines",
-        "GitHub Actions",
-        "GitLab CI"
+        
+                {
+          "name": "Secure pipelines",
+          "proficiency": "Expert",
+          "value": 100
+        },
+                {
+          "name": "GitHub Actions",
+          "proficiency": "Expert",
+          "value": 100
+        },
+                {
+          "name": "GitLab CI",
+          "proficiency": "Expert",
+          "value": 85
+        }
       ]
     },
     {
       "name": "Observability",
       "level": "Master",
       "keywords": [
-        "Datadog",
-        "Opentelemetry",
-        "Tracing & APM"
+                        {
+          "name": "Datadog",
+          "proficiency": "Expert",
+          "value": 100
+        },
+                {
+          "name": "Opentelemetry",
+          "proficiency": "Expert",
+          "value": 70
+        },
+                {
+          "name": "Tracing & APM",
+          "proficiency": "Expert",
+          "value": 100
+        }
       ]
     },
     {
       "name": "Software Engineering",
       "level": "Master",
       "keywords": [
-        "Python",
-        "SDLC workflows",
-        "Build & Release"
+
+                        {
+          "name": "Python",
+          "proficiency": "Expert",
+          "value": 80
+        },
+                {
+          "name": "SDLC workflows",
+          "proficiency": "Expert",
+          "value": 80
+        },
+                {
+          "name": "Build & Release",
+          "proficiency": "Expert",
+          "value": 90
+        }
       ]
     },
     {
       "name": "Leadership & Agile",
       "level": "Master",
       "keywords": [
-        "Mentoring",
-        "leading SRE teams",
-        "Agile methodologies"
+                        {
+          "name": "Mentoring",
+          "proficiency": "Expert",
+          "value": 70
+        },
+                {
+          "name": "leading SRE teams",
+          "proficiency": "Expert",
+          "value": 60
+        },
+                {
+          "name": "Agile methodologies",
+          "proficiency": "Expert",
+          "value": 70
+        }
       ]
     }
   ],
