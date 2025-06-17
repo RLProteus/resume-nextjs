@@ -1,27 +1,35 @@
 import { Separator } from "@/components/ui/separator"
 import {Basics, Summary, Skills, Experience, Education, Projects} from "@/components/resume-parts"
+import { promises as fs } from 'fs';
 
+async function ResumeData(){
 
-export function Resume() {
+    const file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
+    const resume = JSON.parse(file);
+    return await resume;
+}
+
+export async function Resume() {
+  const resume = await ResumeData() 
   return (
-    <div className="max-w-5xl min-w-xl mx-auto space-y-8 print:space-y-6">
+    <div className="max-w-5xl mx-auto space-y-8 print:space-y-6">
       {/* Header */}
-      <Basics />
+      <Basics resume={resume}/>
 
       <Separator />
 
       {/* Summary */}
-      <Summary />
+      <Summary resume={resume}/>
       {/* Skills */}
-      <Skills />
+      <Skills resume={resume}/>
       {/* Experience */}
-      <Experience />
+      <Experience resume={resume}/>
       
       {/* Education */}
-      <Education />
+      <Education resume={resume}/>
 
       {/* Projects */}
-      <Projects />
+      <Projects resume={resume}/>
     </div>
   )
 }

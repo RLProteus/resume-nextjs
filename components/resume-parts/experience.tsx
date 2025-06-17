@@ -1,6 +1,7 @@
+"use client"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { promises as fs } from 'fs';
-import { IconInfoCircle } from '@tabler/icons-react';
+import { convertToMMMYY } from "@/components/utils";
+import { ReadMore } from "@/components/expand-card";
 
 type Work = {
   name: string;
@@ -12,12 +13,8 @@ type Work = {
   highlights: string[];
 };
 
-
-
-export async function Experience() {
-  const file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-  const resume = JSON.parse(file);
-  const icon = <IconInfoCircle />;
+export function Experience(props: any) {
+  let resume = props.resume;
   return (
 
     <Card>
@@ -29,7 +26,7 @@ export async function Experience() {
       <CardContent className="space-y-6">
         {resume.work.map((job: Work, index: number) => (
 
-          <div key={index} className="space-y-2">
+          <div key={index} className="space-y-2 ">
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="font-semibold">{job.position}</h3>
@@ -37,7 +34,7 @@ export async function Experience() {
               </div>
 
               <div className="text-sm text-right text-muted-foreground">
-                <p>Jan 2020 - Present</p>
+                <p>{convertToMMMYY(job.startDate)} - {convertToMMMYY(job.endDate)}</p>
               </div>
             </div>
 
@@ -45,7 +42,8 @@ export async function Experience() {
 
               <Card className="bg-gray-100 dark:bg-gray-800">
                 <CardContent>
-                  {job.summary}
+
+                  <ReadMore index={index} text={job.summary}/>
                 </CardContent>
               </Card>
 

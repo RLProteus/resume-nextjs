@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { promises as fs } from 'fs';
 import Link from 'next/link';
 import { IconBrandGithub } from "@tabler/icons-react"
 
@@ -15,13 +14,12 @@ type Projects = {
 
 
 
-export async function Projects() {
-  const file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-  const resume = JSON.parse(file);
+export function Projects(props: any) {
+  let resume = props.resume;
 
   return (
-    <Card>
-      <CardHeader className="pb-2">
+    <Card className="">
+      <CardHeader className="pb-2 ">
         <CardTitle>Projects</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -31,9 +29,8 @@ export async function Projects() {
             <div className="flex justify-between gap-10 text-sm text-muted-foreground">
               <div>{project.description}</div>
               <div>
-                <Button variant={"outline"}>
-                  <IconBrandGithub />
-                  <Link href={project.url}>More Info</Link>
+                <Button asChild className="dark:hover:bg-sky-900 dark:bg-sky-500 bg-slate-900 bg-slate-500" >
+                  <Link href={project.url}><IconBrandGithub />More Info</Link>
                 </Button>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { promises as fs } from 'fs';
+import { convertToMMMYY } from "@/components/utils";
 
 
 type Education = {
@@ -13,9 +13,8 @@ type Education = {
 
 
 
-export async function Education() {
-  const file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-  const resume = JSON.parse(file);
+export function Education(props: any) {
+  let resume = props.resume;
 
   return (
       <Card>
@@ -29,7 +28,7 @@ export async function Education() {
               <h3 className="font-semibold">{edu.studyType}</h3>
               <p className="text-sm text-muted-foreground">{edu.institution}</p>
             </div>
-            <p className="text-sm text-muted-foreground">{edu.startDate} - {edu.endDate}</p>
+            <p className="text-sm text-muted-foreground">{convertToMMMYY(edu.startDate)} - {convertToMMMYY(edu.endDate)}</p>
           </div>
           ))}
         </CardContent>

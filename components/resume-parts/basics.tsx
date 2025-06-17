@@ -1,10 +1,8 @@
 
 import { Mail, Phone, MapPin, Globe, Github, Linkedin } from "lucide-react"
-import { promises as fs } from 'fs';
 
-export async function Basics()  {
-    const  file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-    const resume = JSON.parse(file);
+export function Basics(props: any) {
+      let resume = props.resume;
   return (
     <div className="space-y-2">
         <h1 className="text-3xl font-bold">{resume.basics.name}</h1>

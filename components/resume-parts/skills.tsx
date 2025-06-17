@@ -1,18 +1,12 @@
 import { Progress } from "@/components/ui/progress"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { promises as fs } from 'fs';
-import { ProgressIndicator } from "@radix-ui/react-progress";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+
 
 
 type Skill = {
   name: string;
   level: string;
-  keywords: [{
-    name: string;
-    proficiency: string;
-    value: number;
-  }
-  ];
+  keywords: Keyword[];
 };
 
 type Keyword = {
@@ -21,9 +15,9 @@ type Keyword = {
   value: number;
 };
 
-export async function Skills() {
-  const file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-  const resume = JSON.parse(file);
+export function Skills(props: any) {
+  let resume = props.resume;
+
   return (
     <Card className="w-full">
       <CardHeader>
@@ -39,8 +33,8 @@ export async function Skills() {
               <h3 className=" font-bold text-lg underline">{skill.name}</h3>
               <div className="space-y-4">
                 {skill.keywords.map((keyword: Keyword, index: number) => (
-                  <div key={index} className="space-y-1">
-                    <div className="flex justify-between items-center">
+                  <div key={index} className="space-y-1 ">
+                    <div className="flex justify-between items-center ">
                       <span className="text-sm">{keyword.name}</span>
                       <span className="text-sm text-muted-foreground">{keyword.value}%</span>
                     </div>

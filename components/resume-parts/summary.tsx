@@ -1,9 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { promises as fs } from 'fs';
       
-export async function Summary()  {
-    const  file = await fs.readFile(process.cwd() + '/app/data/resume.json', 'utf8');
-    const resume = JSON.parse(file);
+export function Summary(props: any) {
+  let resume = props.resume;
   return (
       <Card>
         <CardHeader className="pb-2">
