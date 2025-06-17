@@ -8,9 +8,7 @@ export function Summary(props: any) {
           <CardTitle>Professional Summary</CardTitle>
         </CardHeader>
         <CardContent>
-          <p>
            {resume.basics.summary}
-          </p>
         </CardContent>
       </Card>
     )

@@ -268,6 +268,13 @@
       "endDate": "present",
       "description": "A simple pipeline to generate my resume in various formats using the popular project, JSON Resume. This allows me to keep my resume up to date with minimal effort and ensure it's consistant across all platforms.",
       "url": "https://github.com/RLProteus/Resume"
+    },
+        {
+      "name": "Resume Website",
+      "startDate": "2025-06-09",
+      "endDate": "present",
+      "description": "My resume website rendered with Next.JS and Tailwind CSS. An expansion of my previous project that uses modern web frameworks.",
+      "url": "https://github.com/RLProteus/resume-nextjs"
     }
   ]
 }
