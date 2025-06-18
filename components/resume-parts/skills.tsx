@@ -25,7 +25,7 @@ export function Skills(props: any) {
         <CardTitle>Skills</CardTitle>
       
       <CardDescription className="">
-        Progress bar represents commentency
+        Progress bar represents competency
       </CardDescription>
       </CardHeader>
       <CardContent>
