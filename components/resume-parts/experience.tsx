@@ -37,16 +37,12 @@ export function Experience(props: any) {
                 <p>{convertToMMMYY(job.startDate)} - {convertToMMMYY(job.endDate)}</p>
               </div>
             </div>
-
             {job.summary &&
-
               <Card className="bg-gray-100 dark:bg-gray-800">
                 <CardContent>
-
                   <ReadMore index={index} text={job.summary}/>
                 </CardContent>
               </Card>
-
             }
             <p />
             {job.highlights.length > 0 &&

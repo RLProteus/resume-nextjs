@@ -136,15 +136,18 @@
       "keywords": [
         {
           "name": "Kubernetes",
-          "value": 95
+          "percent": 95,
+          "experience": 5
         },
         {
           "name": "Terraform",
-          "value": 100
+          "percent": 100,
+          "experience": 10
         },
         {
           "name": "ArgoCD",
-          "value": 100
+          "percent": 100,
+          "experience": 5
         }
       ]
     },
@@ -154,15 +157,18 @@
       "keywords": [
         {
           "name": "AWS",
-          "value": 100
+          "percent": 100,
+          "experience": 6
         },
         {
           "name": "GCP",
-          "value": 90
+          "percent": 90,
+          "experience": 6
         },
         {
           "name": "Azure",
-          "value": 60
+          "percent": 60,
+          "experience": 6
         }
       ]
     },
@@ -172,15 +178,18 @@
       "keywords": [
         {
           "name": "Secure pipelines",
-          "value": 100
+          "percent": 100,
+          "experience": 7
         },
         {
           "name": "GitHub Actions",
-          "value": 100
+          "percent": 100,
+          "experience": 7
         },
         {
           "name": "GitLab CI",
-          "value": 85
+          "percent": 85,
+          "experience": 6
         }
       ]
     },
@@ -190,15 +199,18 @@
       "keywords": [
         {
           "name": "Datadog",
-          "value": 100
+          "percent": 100,
+          "experience": 5
         },
         {
           "name": "Opentelemetry",
-          "value": 70
+          "percent": 70,
+          "experience": 5
         },
         {
           "name": "Tracing & APM",
-          "value": 100
+          "percent": 100,
+          "experience": 5
         }
       ]
     },
@@ -208,15 +220,18 @@
       "keywords": [
         {
           "name": "Python",
-          "value": 80
+          "percent": 80,
+          "experience": 9
         },
         {
           "name": "Secure SDLC",
-          "value": 90
+          "percent": 90,
+          "experience": 5
         },
                 {
           "name": "React & Next.js",
-          "value": 30
+          "percent": 30,
+          "experience": 1
         }
       ]
     },
@@ -226,15 +241,18 @@
       "keywords": [
         {
           "name": "Mentoring",
-          "value": 70
+          "percent": 70,
+          "experience": 5
         },
         {
           "name": "leading SRE teams",
-          "value": 60
+          "percent": 60,
+          "experience": 5
         },
         {
           "name": "Agile methodologies",
-          "value": 70
+          "percent": 70,
+          "experience": 9
         }
       ]
     }

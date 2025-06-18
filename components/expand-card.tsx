@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
 
 interface ReadMoreProps {
     index: number
@@ -17,15 +16,13 @@ export const ReadMore = ({ index, text, maxWords = 36 }: ReadMoreProps) => {
     return (
         <div>
             {beginText}
-            {canOverflow && <span className={`${isExpanded && 'hidden'}`}>... </span>}
+            {canOverflow && <span className={`${isExpanded && 'hidden'}`}> </span>}
             <span className={`${!isExpanded && 'hidden'}`} >
                 {` ${remainder}`}
             </span>
-            <p className='mt-2'>
-                <Button className={`${!canOverflow && 'hidden'} dark:hover:bg-sky-900 dark:bg-sky-500 bg-slate-900 bg-slate-500 justify-between`} onClick={() => setIsExpanded(!isExpanded)} >
-                    {isExpanded ? 'Collapse' : 'Expand'}
-                </Button>
-            </p>
+            <span className={`${isExpanded ? 'hidden' : ''} ${!canOverflow && 'hidden'} text-blue-500`} onClick={() => setIsExpanded(!isExpanded)} >
+                ...see more
+            </span>
         </div>
     )
 }

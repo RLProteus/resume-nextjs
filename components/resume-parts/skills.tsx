@@ -1,5 +1,5 @@
 import { Progress } from "@/components/ui/progress"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 
 
 
@@ -12,7 +12,8 @@ type Skill = {
 type Keyword = {
   name: string;
   proficiency: string;
-  value: number;
+  percent: number;
+  experience: number;
 };
 
 export function Skills(props: any) {
@@ -22,6 +23,10 @@ export function Skills(props: any) {
     <Card className="w-full">
       <CardHeader>
         <CardTitle>Skills</CardTitle>
+      
+      <CardDescription className="">
+        Progress bar represents commentency
+      </CardDescription>
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -36,9 +41,9 @@ export function Skills(props: any) {
                   <div key={index} className="space-y-1 ">
                     <div className="flex justify-between items-center ">
                       <span className="text-sm">{keyword.name}</span>
-                      <span className="text-sm text-muted-foreground">{keyword.value}%</span>
+                      <span className="text-sm text-muted-foreground">{keyword.experience} years</span>
                     </div>
-                    <Progress value={keyword.value} className="[&>*]:bg-slate-400 dark:bg-slate-800 bg-slate-200">
+                    <Progress value={keyword.percent} className="[&>*]:bg-slate-400 dark:bg-slate-800 bg-slate-200">
                     </Progress>
                   </div>
                   
