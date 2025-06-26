@@ -7,7 +7,7 @@
     "email": "richylombano@gmail.com",
     "phone": "",
     "website": "https://resume.iosphere.tech",
-    "summary": "Experienced Site Reliability Engineer with a focus on GitOps and a demonstrated history of building secure, reliable platforms. Passionate about enabling product teams through SRE practices and DevOps culture, with a strong belief in 'shift left' principles.",
+    "summary": "Hands-on Site Reliability Engineering leader who champions high-impact initiatives to build successful SRE organizations. I prioritize GitOps, self-service, and observability to deliver secure, reliable platforms that empower Product and Engineering teams with full ownership over the services they deliver.",
     "location": {
       "postalCode": "33701",
       "city": "St. Petersburg",
@@ -34,12 +34,13 @@
       "url": "https://joinmosaic.com/",
       "startDate": "2022-10",
       "endDate": "present",
-      "summary": "As a Staff Site Reliability Engineer at Mosaic, I spearhead key initiatives to enhance our platform's stability and efficiency. I led the successful migration to EKS, cut our cloud costs by 50%, and significantly boosted service availability. I lead our CI/CD and infrastructure architecture and actively contribute to the health and security of our services. Collaborating with the application architecture committee, I help design and approve reference architectures. Currently, I'm leading the development of our internal developer platform, aiming to streamline self-service golden paths for our engineering teams.",
+      "summary": "Spearheaded key initiatives to enhance our platform's stability and efficiency. Reduced Kubernetes node count by 75% and cloud costs by 50%, saving $600,000 annually and significantly improving service availability. I lead our CI/CD and infrastructure architecture and actively contribute to the health and security of our services. Collaborated with the application architecture committee to help design and approve reference architectures. Currently, I'm leading the development of our internal developer platform, aiming to streamline self-service golden paths for our engineering teams.",
       "highlights": [
-        "EKS Migration with Karpenter Autoscaling",
-        "API Gateway modernization w/ NGINX & ingress-nginx",
-        "Platform engineering - self-service portal for engineers",
-        "CI/CD for secure SDLC workflows"
+        "Migrated from kOps to EKS with Karpenter Autoscaling",
+        "Modernized API Gateway w/ NGINX & ingress-nginx",
+        "Led Platform engineering initiative to build a self-service portal for engineers that improved developer velocity ",
+        "Owned CI/CD for secure SDLC workflows and Observability best practices",
+        "Deployed Keycloak to replace expensive Salesforce Login implementation "
       ]
     },
     {
@@ -48,7 +49,7 @@
       "url": "https://panzura.com/",
       "startDate": "2021-01",
       "endDate": "2022-10",
-      "summary": "Working to improve the DevOps culture at Panzura by integrating tooling and policies designed to help Product teams release faster while maintaining high security standards. Leveraging Infrastructure-as-Code, CI/CD pipelines, observability tooling, self-service, and an overall shift-left mentality wherever possible. Leading a team of three engineers.",
+      "summary": "Improved the DevOps culture at Panzura by integrating tooling and policies designed to help Product teams release faster while maintaining high security standards. Leveraging Infrastructure-as-Code, CI/CD pipelines, observability tooling, self-service, and an overall shift-left mentality wherever possible. Leading a team of three engineers.",
       "highlights": []
     },
     {
@@ -59,7 +60,7 @@
       "endDate": "2020-04",
       "highlights": [
         "Designed and migrated customer IT infrastructure to public cloud",
-        "Reference architectures for Azure offerings"
+        "Defined reference architectures for Azure offerings"
       ]
     },
     {
